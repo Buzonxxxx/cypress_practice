@@ -1,6 +1,6 @@
-describe('My First Test', function() {
-    it('Visit google search!', function() {
-        cy.visit('https://beta.xpa.exchange/?1525944154915/#/exchange')
+describe('My First Test', () => {
+    it('Visit google search!', () => {
+        cy.visit('https://staging.xpa.exchange/#/exchange')
         cy.get('.button > span').contains("創建錢包").click()
         
         cy.get('.modal-input').within(() => {
@@ -8,7 +8,7 @@ describe('My First Test', function() {
         })
 
         cy.get('.modal-btn .button').contains("創建").click()
-
+        cy.wait(30000)
         cy.get('.button').contains("匯出錢包") 
     })
   })
