@@ -1,0 +1,22 @@
+{
+  "name": "cypress_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Buzonxxxx/cypress_practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Buzonxxxx/cypress_practice/issues"
+  },
+  "homepage": "https://github.com/Buzonxxxx/cypress_practice#readme",
+  "devDependencies": {
+    "cypress": "^2.1.0"
+  }
+}
